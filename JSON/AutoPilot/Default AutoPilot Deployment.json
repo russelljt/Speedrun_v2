@@ -1,0 +1,25 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+    "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+    "id": "dfd5c946-06f3-4f63-a29b-56fc2b600f33",
+    "displayName": "Default AutoPilot Deployment",
+    "description": "Default AutoPilot Deployment ",
+    "language": "os-default",
+    "createdDateTime": "2021-11-19T18:15:04.9164766Z",
+    "lastModifiedDateTime": "2021-11-19T18:15:04.9164766Z",
+    "enrollmentStatusScreenSettings": null,
+    "extractHardwareHash": true,
+    "deviceNameTemplate": "PC-%SERIAL%",
+    "deviceType": "windowsPc",
+    "enableWhiteGlove": true,
+    "roleScopeTagIds": ["0"],
+    "managementServiceAppId": null,
+    "outOfBoxExperienceSettings": {
+        "hidePrivacySettings": true,
+        "hideEULA": true,
+        "userType": "standard",
+        "deviceUsageType": "singleUser",
+        "skipKeyboardSelectionPage": true,
+        "hideEscapeLink": true
+    }
+}
